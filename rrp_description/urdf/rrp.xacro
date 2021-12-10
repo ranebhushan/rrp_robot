@@ -4,7 +4,7 @@
 
   <!-- Constants for robot dimensions -->
   <xacro:property name="PI" value="3.1415926535897931"/>
-  <xacro:property name="length0" value="0.1" /> <!-- Base -->
+  <xacro:property name="length0" value="0.05" /> <!-- Base -->
   <xacro:property name="length1" value="0.45" /> <!-- Link 0 -->
   <xacro:property name="length2" value="0.425" /> <!-- Link 1 -->
   <xacro:property name="length3" value="0.345" /> <!-- Link 2 -->
