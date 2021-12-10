@@ -22,7 +22,7 @@
   <link name = "base">
     <visual>
       <geometry>
-        <box size = "0.2 ${length0} 0.05"/>
+        <box size = "0.2 0.1 ${length0}"/>
       </geometry>
       <material name = "white"/>
       <origin xyz = "0 0 0.025"/>
@@ -34,7 +34,7 @@
     </inertial>
     <collision>
       <geometry>
-        <box size = "0.2 ${length0} 0.05"/>
+        <box size = "0.2 0.1 ${length0}"/>
       </geometry>
       <material name = "white"/>
       <origin xyz = "0 0 0.025"/>
