@@ -17,4 +17,4 @@ roslaunch rrp_gazebo gazebo.launch
 - Once the robot is successfully spawned in Gazebo, open a new terminal and launch the effort controller node and the joint state publisher by using the command:
 ```
 roslaunch rrp_control rrp_effort_control.launch
-``
+```
