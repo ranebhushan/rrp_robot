@@ -9,14 +9,12 @@ sudo apt-get install ros-noetic-ros-control ros-noetic-ros-controllers ros-noeti
 ```
 
 ## Usage Guidelines
-- To run the RRP robot in Gazebo, launch the Gazebo simulator and spawn a new robot by the following command:
-
+- Launch the RRP robot manipulator in Gazebo using by the following command:
 ```
 roslaunch rrp_gazebo gazebo.launch
 ```
 
 - Once the robot is successfully spawned in Gazebo, open a new terminal and launch the effort controller node and the joint state publisher by using the command:
-
 ```
 roslaunch rrp_control rrp_effort_control.launch
 ```
